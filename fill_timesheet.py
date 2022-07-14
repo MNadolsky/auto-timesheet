@@ -1,7 +1,8 @@
-
 import os
 import time
 
+
+import keyring
 from selenium import webdriver
 from selenium.webdriver.common.by import By as by
 from selenium.webdriver.support import expected_conditions as EC
@@ -19,7 +20,7 @@ def fill_timesheet():
 
     url = os.environ.get('TIMESHEET_URL')
     username = os.environ.get('TIMESHEET_USERNAME')
-    password = os.environ.get('TIMESHEET_PASSWORD')
+    password = keyring.get_password('timesheet', username)
 
     # log in
 
