@@ -1,3 +1,7 @@
+# invites
+
+PLEASE INVITE PEOPLE IN ENGINEERING I MISSED. Use proper discretion; slack me if you're not sure.
+
 # auto-timesheet
 
 Script for automatically filling out your timesheet. No timesheet in particular. Just one you may
